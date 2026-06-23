@@ -1,1 +1,7 @@
-console.log("AVS Online Service Loaded");
+// console.log("AVS Online Service Loaded");
+const menuBtn = document.getElementById("menuBtn");
+const navMenu = document.getElementById("navMenu");
+
+menuBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
